@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, sans-serif;
+    height: 400vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scroller {
+    background-color: blue;
+    width: 0px;
+    height: 5px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.repos-container {
+    display: inline-block;
+    background-color: #EEE;
+    width: 70%;
+    height: auto;
+    margin: 20px 12.5rem;
+    border-radius: 4px;
+}
+
+.get-repos {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 2px;
+    margin: 20px 10px;
+}
+
+.get-repos input {
+    width: 100%;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.get-repos input:focus {
+    outline: 2px solid red;
+    border: none;
+}
+
+.get-repos .get-button {
+    background-color: red;
+    width: 15%;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 45px;
+    font-weight: bold;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.show-data {
+    height: auto;
+    background-color: #80808054;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.show-data span {
+    position: relative;
+    /* top: 12px; */
+    left: 17px;
+    font-weight: bold;
+}
+
+.result {
+    text-transform: capitalize;
+}
+
+.checked {
+    text-transform: capitalize;
+}
+
+::-webkit-input-placeholder {
+    color: red;
+    position: relative;
+    left: 5px;
+}
+
+::-moz-placeholder {
+    color: red;
+    position: relative;
+    left: 5px;
+}
+
+:-ms-input-placeholder {
+    color: red;
+    position: relative;
+    left: 5px;
+}
+
+::-ms-input-placeholder {
+    color: red;
+    position: relative;
+    left: 5px;
+}
+
+::placeholder {
+    color: black;
+    position: relative;
+    left: 5px;
+    text-transform: capitalize;
+}
